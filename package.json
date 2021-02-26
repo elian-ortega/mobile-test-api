@@ -1,0 +1,21 @@
+{
+  "name": "QRSeedApi",
+  "version": "1.0.0",
+  "description": "Node.js api that generates random seeds",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "14.15.0"
+  }
+}
